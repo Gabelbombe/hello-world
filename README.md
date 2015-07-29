@@ -49,11 +49,9 @@ Package name (<vendor>/<name>) [ehime/hello-world]: ehime/hello-world
 Description []: My first Composer project
 Author [Junior Grossi <me@ehime.com>]: Your Name <your@name.com>
 Minimum Stability []: dev
-```
 
-### Define your dependencies.
+Define your dependencies.
 
-```
 Would you like to define your dependencies (require) interactively [yes]? no
 Would you like to define your dev dependencies (require-dev) interactively [yes]? no
 
@@ -114,10 +112,11 @@ require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Compos
 use HelloWorld\SayHello;
 
 echo SayHello::world();
- Go to the terminal (or create a PHP web server inside "tests" dir) and type:
-
-php tests/test.php
 ```
+
+Go to the terminal (or create a PHP web server inside "tests" dir) and type:
+
+`php tests/test.php`
 
 You'll get "Hello World, Composer!". It's working now.
 
