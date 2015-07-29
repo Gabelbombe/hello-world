@@ -141,4 +141,8 @@ Every time you do a new commit to Github you must update the Packagist. Go to yo
  * Token: your API token, that you can find inside your Packagist settings link
  * Domain: packagist.org Ok! Auto update finished and your package is available to other developers.
 
+From here on out you can now embed this project into another workflow by using the following command.
+
+`composer require ehime/hello-world`
+
 Our first Composer package is finished, but you can do much more using it. Thanks!
