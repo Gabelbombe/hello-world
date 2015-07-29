@@ -1,13 +1,19 @@
 {
-    "name": "ehime/composer-helloworld",
-    "description": "Generic hello world program with composer",
-    "license": "gnu",
+    "name": "ehime/hello-world",
+    "description": "My first Composer project",
     "authors": [
         {
-            "name": "ehime",
-            "email": "dodomeki@gmail.com"
+            "name": "Your Name",
+            "email": "your@name.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
 }
