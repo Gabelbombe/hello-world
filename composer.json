@@ -1,5 +1,5 @@
 {
-    "name": "ehime/hello-world",
+    "name": "ehime/composer-helloworld",
     "description": "Generic hello world program with composer",
     "license": "gnu",
     "authors": [
