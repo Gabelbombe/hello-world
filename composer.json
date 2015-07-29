@@ -1,0 +1,13 @@
+{
+    "name": "ehime/hello-world",
+    "description": "Generic hello world program with composer",
+    "license": "gnu",
+    "authors": [
+        {
+            "name": "ehime",
+            "email": "dodomeki@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
