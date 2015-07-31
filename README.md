@@ -102,7 +102,7 @@ Sure we want to do a simple test to verify if our class is working well. You can
 
 `composer install`
 
-As you have only "php >=5.3.0" inside "composer.json", Composer will install only it's own files. With Composer installed create a directory "tests" inside your root dir. Create the "test.php" file inside it with the follow content:
+As you have only "php >=5.3.0" inside "composer.json", Composer will install only it's own files. With Composer installed create a directory "tests" inside your root dir. Create the "TestCase.php" file inside it with the follow content:
 
 ```
 <?php
@@ -116,7 +116,7 @@ echo SayHello::world();
 
 Go to the terminal (or create a PHP web server inside "tests" dir) and type:
 
-`php tests/test.php`
+`php -f tests/HelloWorld/Tests/TestCase.php`
 
 You'll get "Hello World, Composer!". It's working now.
 

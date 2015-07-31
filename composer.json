@@ -1,6 +1,7 @@
 {
     "name": "ehime/hello-world",
     "description": "My first Composer project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jd Daniel",
