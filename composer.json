@@ -11,7 +11,7 @@
             "email": "dodomeki@gmail.com"
         }
     ],
-    "minimum-stability": "dev-stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0"
     },
