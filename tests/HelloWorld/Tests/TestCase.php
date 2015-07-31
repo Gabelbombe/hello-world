@@ -2,6 +2,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-use HelloWorld\SayHello;
+Use HelloWorld\SayHello;
 
-echo SayHello::world();
+Class Test Extends PHPUnit_Framework_TestCase
+{
+    public function test() {
+        $this->assertEquals('Hello Composer!', SayHello::world());
+    }
+}
