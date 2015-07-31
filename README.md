@@ -132,7 +132,8 @@ git push origin master
 ```
 
 Now you have your project inside a Github repo and you're ready to send it to Packagist. Go to [Packagist web site](http://packagist.org/), create your account, login and Submit a Package. Packagist'll ask you for Repository URL (Git/Svn/Hg). Paste there git@github.com:username/hello-world.git and click "Check!". Packagist will check your project and return the project name. If it's correct accept it.
-Packagist Details
+
+### Packagist Details
 
 Every time you do a new commit to Github you must update the Packagist. Go to your account, your package and click "Force Update!". Packagist will go to Github and update the sources. You can turn on "auto update" going to your Github repo, clicking "Settings", after "Service Hooks" and click the "Packagist" service. There update with your information, like:
 
@@ -145,3 +146,7 @@ From here on out you can now embed this project into another workflow by using t
 `composer require ehime/hello-world`
 
 Our first Composer package is finished, but you can do much more using it. Thanks!
+
+### NOTE
+
+If at any time you change your repository url you will sever the Packagist connection and will no longer be able to run autoupdate!
